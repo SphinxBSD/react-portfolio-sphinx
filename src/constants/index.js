@@ -17,11 +17,8 @@ import {
   devImage2,
   chromecast,
   disc02,
-  discordBlack,
-  facebook,
   file02,
   homeSmile,
-  instagram,
   notification2,
   notification3,
   notification4,
@@ -30,9 +27,9 @@ import {
   recording03,
   searchMd,
   sliders04,
-  telegram,
-  twitter,
-  yourlogo,
+
+  devImage3,
+  devIcon15,
 } from "../assets";
 
 export const navigation = [
@@ -68,8 +65,6 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-
 export const brainwaveServices = [
   "Photo generating",
   "Photo enhance",
@@ -87,21 +82,6 @@ export const brainwaveServicesIcons = [
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
-export const collabContent = [
-  {
-    id: "0",
-    title: "Seamless Integration",
-    text: collabText,
-  },
-  {
-    id: "1",
-    title: "Smart Automation",
-  },
-  {
-    id: "2",
-    title: "Top-notch Security",
-  },
-];
 
 export const benefits = [
   {
@@ -129,38 +109,23 @@ export const benefits = [
     imageUrl: devImage2,
     light: true,
   },
-];
-
-export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "Odisea Rent a Car",
+    text: "Odisea Rent a Car is a descentralized application built with React Vite and Soroban for the Stellar Network in order to process the transactions",
+    backgroundUrl: "src/assets/benefits/card-4.svg",
+    iconUrl: [devIcon15],
+    imageUrl: devImage3,
+    light: true,
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "Sueltitos",
+    text: "Sueltitos was a project built with Ethereum scaffold and Solidity, deployed on arbitrum network",
+    backgroundUrl: "src/assets/benefits/card-4.svg",
+    iconUrl: [],
+    imageUrl: devImage3,
+    light: true,
   },
 ];
 
@@ -186,6 +151,15 @@ export const educationItems = [
 ];
 
 export const experienceItems = [
+  {
+    id: "0",
+    title: "Smart Contract Developer Internship",
+    description: "Blockchain Consultora",
+    date: "July, 2025 — Oct, 2025 \nLa Paz, Bolivia",
+    details: [
+      "Developed and tested smart contracts using Foundry and Solidity, applying OpenZeppelin standards and ERC-4337 (Account Abstraction) - Designed and implemented zero-knowledge proof circuits using Noir, generating off-chain and on-chain proofs (e.g., age verification) - Built prototype dApps integrating ZK proofs with React (Vite/Next.js) and JWT authentication",
+    ],
+  },
   {
     id: "1",
     title: "Full stack Web Developer ",

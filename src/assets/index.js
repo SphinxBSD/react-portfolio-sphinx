@@ -1,14 +1,8 @@
-import brainwave from "./brainwave.svg";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
-import smallSphere from "./4-small.png";
 import grid from "./grid.png";
-import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -77,24 +71,20 @@ import devIcon11 from "./projects/devicon-11.svg";
 import devIcon12 from "./projects/devicon-12.svg";
 import devIcon13 from "./projects/devicon-13.svg";
 import devIcon14 from "./projects/devicon-14.svg";
+import devIcon15 from "./projects/devicon-15.png";
 import devImage1 from "./projects/devimage-1.png";
 import devImage2 from "./projects/devimage-2.png";
+import devImage3 from "./projects/devimage-3.png";
 import sphinxarSymbol from "./sphinxar-symbol.svg";
 
 export {
-  brainwave,
   sphinxar,
   check,
-  check2,
   loading1,
-  brainwaveSymbol,
   sphinxarSymbol,
-  brainwaveWhiteSymbol,
   play,
   gradient,
-  smallSphere,
   grid,
-  yourlogo,
   homeSmile,
   file02,
   searchMd,
@@ -154,6 +144,8 @@ export {
   devIcon12,
   devIcon13,
   devIcon14,
+  devIcon15,
   devImage1,
   devImage2,
+  devImage3
 };
